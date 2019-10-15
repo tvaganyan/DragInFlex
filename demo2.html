@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>HTML5 Flex + Drag</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="js/dragInFlex2.js"></script> 
+</head>
+<body>
+    <div id="D0" class="flex-container">
+        <div class="flex-item item1">
+            <span>Item 1</span>
+        </div>
+        <div class="flex-item item2">
+            <span>Item 2</span>
+        </div>
+        <div class="flex-item item3">
+             <span>Item 3</span>
+        </div>
+        <div class="flex-item item4">
+            <span>Item 4</span>
+        </div>
+        <div class="flex-item item5">
+            <span>Item 5</span>
+        </div>
+        <div class="flex-item item6">
+             <span>Item 6</span>
+         </div>   
+    </div>
+    <div id="D1" class="flex-container"> </div>
+    <script>
+        dragInit(document.getElementById("D0"), document.getElementById("D1"));
+    </script>
+
+</body>
+</html>
