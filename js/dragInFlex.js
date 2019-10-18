@@ -1,12 +1,4 @@
-﻿// - - - - - - Copyright (C) 2019  T. Vaganyan - - - - - -
-
-// This program is free software: you can redistribute it and/or modify
-// it under the terms of the GNU General Public License as published by
-// the Free Software Foundation, either version 3 of the License, or
-// (at your option) any later version.
-
-
-        function dragInit(D, callbackF) {
+﻿        function dragInit(D, callbackF) {
             var o;
             function allowDrop(ev) {
                 ev.preventDefault();
