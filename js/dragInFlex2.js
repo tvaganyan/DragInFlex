@@ -14,13 +14,13 @@
                 while (target) {
                     if (target == d_in || target == d_out) {
                         target.appendChild(o);
-                        if(callbackF) {
-                           callbackF(d_out, d_in);
-                        }
                         break;
                     } else {
                         target = target.parentNode;
                     }
+                }
+                if(callbackF) {
+                   callbackF(d_out, d_in);
                 }
             }
 

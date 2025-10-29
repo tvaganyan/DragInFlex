@@ -18,14 +18,14 @@
                         } else {
                             D.insertBefore(o, target.nextSibling);
                         }
-                        setOrder();
-                        if (callbackF) {
-                            callbackF(D);
-                        }
                         break;
                     } else {
                         target = target.parentNode;
                     }
+                }
+                setOrder();
+                if (callbackF) {
+                    callbackF(D);
                 }
             }
             function setOrder() {
